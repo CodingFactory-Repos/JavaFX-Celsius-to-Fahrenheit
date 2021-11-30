@@ -7,4 +7,6 @@ module me.loule.celsiustofahrenheit {
 
     opens me.loule.celsiustofahrenheit to javafx.fxml;
     exports me.loule.celsiustofahrenheit;
+    opens me.loule.celsiustofahrenheit.controller to javafx.fxml;
+    exports me.loule.celsiustofahrenheit.controller;
 }
